@@ -1,0 +1,58 @@
+body {
+    font-family: "Kanit", sans-serif;
+    background-color: #f4f4f4;
+    color: #442828;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  #nasa-info {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(187, 178, 178, 0.1);
+  }
+  
+  #nasa-info h1 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  #nasa-info img {
+    max-width: 100%;
+    height: 80vh;
+    display: block;
+    margin: 50px 0;
+  }
+  
+  #nasa-info p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 200;
+  }
+  /* input */
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+  }
+
+  #date-input {
+    width: 150px; 
+  }
+
+  #fetch-button {
+
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    cursor: pointer; 
+  }
+  #fetch-button:hover {
+    background-color: #1d1d1d; 
+    color: #ffffff;
+  }
